@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo apt update
-sudo apt install -y tesseract-ocr
-sudo apt install -y tesseract-ocr-por
-sudo apt install -y tesseract-ocr-eng
+apt-get update
+apt-get install -y tesseract-ocr
+apt-get install -y tesseract-ocr-por
+apt-get install -y tesseract-ocr-eng
+apt-get install -y libgl1-mesa-glx
+apt-get install -y libglib2.0-0
